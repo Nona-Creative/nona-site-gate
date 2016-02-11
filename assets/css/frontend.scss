@@ -1,4 +1,9 @@
-$light-grey         : #e6e6e6;
+// Color Variables
+$light-grey         : #8d8d8d;
+$dark-grey          : #202020;
+$darker-frey        : #1b1a1a;
+$blue               : #2581b5;
+$red                : #e42417;
 
 body {
 	&.overlay-active {
@@ -8,7 +13,7 @@ body {
 		position: fixed;
 		height: 100%;
 		width: 100%;
-		background: $light-grey;
+		background: $dark-grey;
 		// z-index: 10000;
 		display: none;
 		top: 0;
@@ -28,15 +33,14 @@ body {
 			// }
 
 		#nona-overlay-inner {
-		    position: absolute;
-		    top: 50%;
-		    left: 50%;
-		    margin-top: -250px;
-		    margin-left: -250px;
-			height: 500px;
+		    // position: absolute;
+		    padding-top: 80px;
+		    margin: 0 auto;
 			width: 500px;
 			z-index: 2;
-
+			.nona-overlay-logo {
+				text-align: center;
+			}
 			#nona-overlay {
 				display: flex;
 				flex-flow: column;
@@ -45,3 +49,95 @@ body {
 		}
 	}
 }
+
+/**
+ * Gravity Forms
+ */
+
+body {
+	.gform_wrapper {
+		.gform_heading {
+			.gform_description {
+				color: $light-grey;
+				.ftds-thanks {
+					text-align: center;
+				}
+				.ftds-why {
+					// font-size: 14px;
+					color: darken($light-grey, 15%);
+					letter-spacing: 0.644px;
+				}
+			}
+		}
+
+		.gform_body {
+			.gform_fields {
+				.gfield {
+					.gfield_label {
+						display: none;
+					}
+					input[type=text] {
+						padding: 10px 8px;
+						border: 2px solid $blue;
+						border-bottom: 4px solid $blue;
+						transition: all 0.3s ease 0.3s;
+						&:focus {
+							border: 2px solid lighten($blue, 20%);
+							border-bottom: 4px solid lighten($blue, 20%);
+						}
+					}
+				}
+			}
+		}
+
+		.ginput_complex{
+			label {
+				display: none;
+			}
+
+			&.ginput_container {
+
+
+				&.has_first_name {
+					&.no_middle_name {
+						&.has_last_name  {
+							span {
+								width: 50%;
+								padding-right: 11px;
+								&.name_last {
+									padding-right: 0;
+								}
+							}
+						}
+					}
+				}
+			}
+
+		}
+		// div {
+		// 	&.ginput_container_name span {
+		// 	    padding-right: 11px;
+		// 	}
+		// }
+		.gform_footer {
+			padding: 0;
+		    margin: 0;
+			input[type=submit] {
+				border: 1px solid $blue;
+				color: white;
+				background: $blue;
+				border-radius: 5px;
+				height: auto;
+				padding: 2px 10px;
+				margin-top: 5px;
+				transition: all 0.3s ease 0s;
+				&:hover {
+					background: darken( $blue, 10% );
+				}
+			}
+		}
+	}
+}
+
+
+

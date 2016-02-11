@@ -372,6 +372,17 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/assets\/img\/gm-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23821,
+		"inputAbbreviatedPath": "\/assets\/img\/gm-logo.png",
+		"outputAbbreviatedPath": "\/assets\/img\/gm-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/js\/admin.js": {
 		"fileType": 64,
 		"ignore": 0,

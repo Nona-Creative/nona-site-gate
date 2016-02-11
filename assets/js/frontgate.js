@@ -5,7 +5,7 @@ jQuery(document).ready( function ($) {
 		$("body").addClass('overlay-active');
 
 		// Makes the overlay visible.
-		$("#nona-overlay-wrap").fadeIn(500);
+		$("#nona-overlay-wrap").fadeIn(100);
 
 	}
 

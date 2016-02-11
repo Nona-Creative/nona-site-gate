@@ -38,7 +38,7 @@ function admin_enqueue_styles () {
 
 add_action( 'admin_enqueue_scripts', 'admin_enqueue_scripts', 10, 1 );
 function admin_enqueue_scripts () {
-	global $_token, $assets_url, $_version;
+	global $_token, $assets_url, $_version, $script_suffix;
 	wp_register_script( $_token . '-admin', esc_url( $assets_url ) . 'js/admin' . $script_suffix . '.js', array( 'jquery' ), $_version );
 	wp_enqueue_script( $_token . '-admin' );
 } // End admin_enqueue_scripts ()
@@ -52,13 +52,16 @@ function load_localisation () {
 // Maybe display the overlay.
 add_action( 'wp_footer', 'verify_overlay', 10 );
 function verify_overlay() {
+	global $assets_url;
 	// Disable page caching by W3 Total Cache.
 	define( 'DONOTCACHEPAGE', true ); ?>
 
 		<div id="nona-overlay-wrap" class="nona-site-gate-hide">
 			<div id="nona-overlay-inner">
 				<div id="nona-overlay">
+						<div class="nona-overlay-logo"><img src="<?php echo $assets_url; ?>/img/gm-logo.png"></div>
 						<?php nona_verify_form(); ?>
+
 				</div>
 			</div>
 		</div>
@@ -66,6 +69,6 @@ function verify_overlay() {
 }
 
 function nona_verify_form() {
-	gravity_form(1, false, false, false, '', true, 12);
+	gravity_form(1, false, true, false, '', true, 12);
 }
 
