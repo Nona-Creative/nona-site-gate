@@ -5,7 +5,7 @@ jQuery(document).ready( function ($) {
 		//$(".container").addClass('nona-site-gate');
 
 
-		$('#agegate-form').mobiscroll().date({
+		$('#sitegate-form').mobiscroll().date({
 			theme: 'default',
 			display: 'inline',
 			startYear: 1900,
@@ -17,7 +17,7 @@ jQuery(document).ready( function ($) {
 			height: "30"
 		});
 
-		$("#agegate-wrap").fadeIn(500);
+		$("#sitegate-wrap").fadeIn(500);
 		$("#nona-overlay-wrap").fadeIn(500);
 
 		$("#nona_verify").on("click", function(e) {
@@ -51,7 +51,7 @@ jQuery(document).ready( function ($) {
 
 			var ageData, values, day, month, year, today, birthDate, age, m;
 
-			ageData = $('#agegate-form').mobiscroll('getInst');
+			ageData = $('#sitegate-form').mobiscroll('getInst');
 			values = ageData.getValue();
 
 			day   = values[0]; // day

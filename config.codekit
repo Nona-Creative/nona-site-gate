@@ -416,17 +416,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/assets\/js\/frontend.min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/js\/frontend.min.js",
-		"outputAbbreviatedPath": "\/assets\/js\/min\/frontend.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/assets\/js\/frontgate.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -449,134 +438,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/assets\/js\/mobiscroll\/mobiscroll.core.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/js\/mobiscroll\/mobiscroll.core.js",
-		"outputAbbreviatedPath": "\/assets\/js\/mobiscroll\/mobiscroll.core.min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 2
-		},
-	"\/assets\/js\/mobiscroll\/mobiscroll.core.min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/js\/mobiscroll\/mobiscroll.core.min.js",
-		"outputAbbreviatedPath": "\/assets\/js\/mobiscroll\/min\/mobiscroll.core.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/assets\/js\/mobiscroll\/mobiscroll.datetime.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/js\/mobiscroll\/mobiscroll.datetime.js",
-		"outputAbbreviatedPath": "\/assets\/js\/mobiscroll\/mobiscroll.datetime.min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 2
-		},
-	"\/assets\/js\/mobiscroll\/mobiscroll.datetime.min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/js\/mobiscroll\/mobiscroll.datetime.min.js",
-		"outputAbbreviatedPath": "\/assets\/js\/mobiscroll\/min\/mobiscroll.datetime.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/assets\/js\/mobiscroll\/mobiscroll.scroller.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/js\/mobiscroll\/mobiscroll.scroller.js",
-		"outputAbbreviatedPath": "\/assets\/js\/mobiscroll\/mobiscroll.scroller.min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 2
-		},
-	"\/assets\/js\/mobiscroll\/mobiscroll.scroller.min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/js\/mobiscroll\/mobiscroll.scroller.min.js",
-		"outputAbbreviatedPath": "\/assets\/js\/mobiscroll\/min\/mobiscroll.scroller.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/assets\/js\/mobiscroll\/mobiscroll.widget.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/js\/mobiscroll\/mobiscroll.widget.js",
-		"outputAbbreviatedPath": "\/assets\/js\/mobiscroll\/mobiscroll.widget.min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 2
-		},
-	"\/assets\/js\/mobiscroll\/mobiscroll.widget.min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/js\/mobiscroll\/mobiscroll.widget.min.js",
-		"outputAbbreviatedPath": "\/assets\/js\/mobiscroll\/min\/mobiscroll.widget.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/assets\/js\/settings.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/js\/settings.js",
-		"outputAbbreviatedPath": "\/assets\/js\/min\/settings-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/assets\/js\/settings.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/js\/settings.min.js",
-		"outputAbbreviatedPath": "\/assets\/js\/min\/settings.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/includes\/class-nona-site-gate-settings.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/includes\/class-nona-site-gate-settings.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/includes\/class-nona-site-gate.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/includes\/class-nona-site-gate.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/includes\/functions.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -586,11 +447,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/includes\/lib\/class-nona-site-gate-admin-api.php": {
+	"\/includes\/nona-site-gate-options.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/includes\/lib\/class-nona-site-gate-admin-api.php",
+		"inputAbbreviatedPath": "\/includes\/nona-site-gate-options.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -604,11 +465,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/nona-age-gate.php": {
+	"\/nona-site-gate.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/nona-age-gate.php",
+		"inputAbbreviatedPath": "\/nona-site-gate.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
