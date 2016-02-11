@@ -15,10 +15,10 @@ add_action( 'wp_enqueue_scripts','enqueue_scripts', 10 );
 function enqueue_scripts () {
 	global $_token, $assets_url, $_version, $script_suffix;
 
-	wp_register_script( $_token . '-frontgate', esc_url( $assets_url ) . 'js/frontgate' . $script_suffix . '.js', array( 'jquery' ), $_version );
+	wp_register_script( $_token . '-frontgate', esc_url( $assets_url ) . 'js/frontgate.js', array( 'jquery' ), $_version );
 	wp_enqueue_script( $_token . '-frontgate' );
 
-	wp_register_script( $_token . '-cookie', esc_url( $assets_url ) . 'js/cookie' . $script_suffix . '.js', array( 'jquery' ), $_version );
+	wp_register_script( $_token . '-cookie', esc_url( $assets_url ) . 'js/cookie.min.js', array( 'jquery' ), $_version );
 	wp_enqueue_script( $_token . '-cookie' );
 
 	// WordPress Localise Script for use in JS

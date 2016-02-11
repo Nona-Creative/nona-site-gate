@@ -1,6 +1,5 @@
 jQuery(document).ready( function ($) {
 
-
 	function initialize_site_gate() {
 		$("body").addClass('overlay-active');
 
@@ -13,12 +12,12 @@ jQuery(document).ready( function ($) {
         if(formId == 1) {
             $("#nona-overlay-wrap").fadeOut(500);
             $("body").removeClass('overlay-active');
-			// cookie.set( 'ftds', 'verified', {
-			//    expires: 180,
-			//    domain: document.location.hostname,
-			//    path: '/',
-			//    secure: false
-			// });
+			cookie.set( 'ftds', 'verified', {
+			   expires: 180,
+			   domain: document.location.hostname,
+			   path: '/',
+			   secure: false
+			});
         }
     });
 
