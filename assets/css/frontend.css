@@ -1,0 +1,167 @@
+/*
+    Media Queries
+ */
+/* Vars */
+/* - - - - - - -  Utility Functions - - - - - - - - - */
+/* - - - - - - - - -  Utility Mixins  - - - - - - - - - -  */
+/* - - - - - - - - -  Public Mixins  - - - - - - - - - -  */
+/* Custom Font Stacks */
+/*
+  Colors
+*/
+#nona-overlay-wrap {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  z-index: 10000;
+  display: none;
+  top: 0;
+  left: 0;
+  overflow-y: scroll; }
+  @media (min-width: 0) and (max-width: 766px) {
+    #nona-overlay-wrap {
+      background-image: url("../img/ara-mob-tjg-sitegate.jpg"); } }
+  #nona-overlay-wrap:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    /*IE8*/
+    z-index: 1; }
+  #nona-overlay-wrap #nona-overlay-inner {
+    height: 100%;
+    width: 100%;
+    z-index: 2; }
+    #nona-overlay-wrap #nona-overlay-inner #nona-overlay {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-flow: column;
+          -ms-flex-flow: column;
+              flex-flow: column;
+      height: 100%; }
+      #nona-overlay-wrap #nona-overlay-inner #nona-overlay .landing-panel .logo {
+        top: 9%; }
+        @media (min-width: 767px) {
+          #nona-overlay-wrap #nona-overlay-inner #nona-overlay .landing-panel .logo {
+            top: 24%; } }
+      #nona-overlay-wrap #nona-overlay-inner #nona-overlay .landing-panel.krone {
+        background-image: url("../img/ara-mob-krone-sitegate.jpg"); }
+        @media (min-width: 767px) {
+          #nona-overlay-wrap #nona-overlay-inner #nona-overlay .landing-panel.krone {
+            background-image: url("../img/ara-krone-sitegate.jpg"); } }
+        @media (min-width: 767px) and (max-width: 1023px) {
+          #nona-overlay-wrap #nona-overlay-inner #nona-overlay .landing-panel.krone .logo {
+            right: 16%;
+            left: inherit;
+            margin-right: -130px;
+            margin-right: -9.2857142857rem; } }
+      @media (min-width: 767px) {
+        #nona-overlay-wrap #nona-overlay-inner #nona-overlay .landing-panel.tjg {
+          background-image: url("../img/ara-tjg-sitegate.jpg"); } }
+      #nona-overlay-wrap #nona-overlay-inner #nona-overlay .landing-panel.tjg .logo {
+        top: inherit;
+        bottom: 9%;
+        background-image: url("../img/tjg-logo-white-trans-icon.svg"); }
+        @media (max-height: 320px) {
+          #nona-overlay-wrap #nona-overlay-inner #nona-overlay .landing-panel.tjg .logo {
+            margin-top: 27%; } }
+        @media (min-width: 767px) {
+          #nona-overlay-wrap #nona-overlay-inner #nona-overlay .landing-panel.tjg .logo {
+            top: 24%;
+            bottom: inherit; } }
+        @media (min-width: 767px) and (max-width: 1023px) {
+          #nona-overlay-wrap #nona-overlay-inner #nona-overlay .landing-panel.tjg .logo {
+            left: 16%;
+            margin-left: -130px;
+            margin-left: -9.2857142857rem; } }
+      #nona-overlay-wrap #nona-overlay-inner #nona-overlay a#nona_verify {
+        border: 1px solid #c4a364;
+        color: #c4a364;
+        display: block;
+        font-size: 1.3125rem;
+        line-height: 26px;
+        text-decoration: none;
+        min-width: 100%;
+        outline: none;
+        position: relative;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+        padding: 5px;
+        padding: 0.3571428571rem;
+        margin-top: 11.5px;
+        margin-top: 0.8214285714rem; }
+        #nona-overlay-wrap #nona-overlay-inner #nona-overlay a#nona_verify:after {
+          content: '';
+          position: absolute;
+          z-index: -1;
+          -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+          width: 0%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          background: #c4a364; }
+        #nona-overlay-wrap #nona-overlay-inner #nona-overlay a#nona_verify:hover, #nona-overlay-wrap #nona-overlay-inner #nona-overlay a#nona_verify:active {
+          text-decoration: none;
+          cursor: pointer;
+          color: #fff; }
+          #nona-overlay-wrap #nona-overlay-inner #nona-overlay a#nona_verify:hover:after, #nona-overlay-wrap #nona-overlay-inner #nona-overlay a#nona_verify:active:after {
+            width: 100%; }
+      #nona-overlay-wrap #nona-overlay-inner #nona-overlay .agegate-wrap {
+        display: none;
+        position: absolute;
+        top: 47%;
+        left: 50%;
+        background: #fff;
+        border: 1px solid #c4a364;
+        color: #c4a364;
+        text-align: center;
+        z-index: 2;
+        font-family: 'Cinzel', serif !important;
+        font-weight: 400;
+        width: 230px;
+        width: 16.4285714286rem;
+        margin-left: -115px;
+        margin-left: -8.2142857143rem;
+        margin-top: -130px;
+        margin-top: -9.2857142857rem;
+        padding-left: 20px;
+        padding-left: 1.4285714286rem;
+        padding-right: 20px;
+        padding-right: 1.4285714286rem; }
+        @media (min-width: 767px) {
+          #nona-overlay-wrap #nona-overlay-inner #nona-overlay .agegate-wrap {
+            top: 40%; } }
+        #nona-overlay-wrap #nona-overlay-inner #nona-overlay .agegate-wrap .agegate #agegate-form .mbsc-mobiscroll .dwwb {
+          background: #fff; }
+          #nona-overlay-wrap #nona-overlay-inner #nona-overlay .agegate-wrap .agegate #agegate-form .mbsc-mobiscroll .dwwb span {
+            display: block; }
+        #nona-overlay-wrap #nona-overlay-inner #nona-overlay .agegate-wrap .agegate #agegate-form .mbsc-mobiscroll .dwwol {
+          border: none; }
+        #nona-overlay-wrap #nona-overlay-inner #nona-overlay .agegate-wrap .agegate #agegate-form .mbsc-mobiscroll .dwwr {
+          font-family: 'Cinzel', serif !important;
+          font-weight: 400; }
+        #nona-overlay-wrap #nona-overlay-inner #nona-overlay .agegate-wrap .agegate #agegate-form .mbsc-mobiscroll .dw-sel .dw-i {
+          color: #8d7d55;
+          font-size: 1.35em; }
+        #nona-overlay-wrap #nona-overlay-inner #nona-overlay .agegate-wrap .agegate #agegate-form .mbsc-mobiscroll .dwwc > .dwfl {
+          border-left: none; }
+        #nona-overlay-wrap #nona-overlay-inner #nona-overlay .agegate-wrap .agegate #agegate-form .mbsc-mobiscroll i {
+          color: #c4a364;
+          font-size: 40px;
+          font-size: 2.8571428571rem; }
+        #nona-overlay-wrap #nona-overlay-inner #nona-overlay .agegate-wrap #error-too-young {
+          display: none;
+          color: #BC2F3C; }
+          #nona-overlay-wrap #nona-overlay-inner #nona-overlay .agegate-wrap #error-too-young p {
+            margin-bottom: 0;
+            margin-top: 5px;
+            padding: 5px;
+            border: 1px solid; }
