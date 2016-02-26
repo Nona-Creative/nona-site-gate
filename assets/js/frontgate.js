@@ -10,7 +10,7 @@ jQuery(document).ready( function ($) {
 
 	jQuery(document).bind('gform_confirmation_loaded', function(event, formId){
         if(formId == 1) {
-            $("#nona-overlay-wrap").fadeOut(500);
+            $("#nona-overlay-wrap").delay(5000).fadeOut(300);
             $("body").removeClass('overlay-active');
 			cookie.set( 'ftds', 'verified', {
 			   expires: 180,
