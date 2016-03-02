@@ -25,6 +25,8 @@ body #nona-overlay-wrap {
           -ms-flex-flow: column;
               flex-flow: column;
       height: 100%; }
+      body #nona-overlay-wrap #nona-overlay-inner #nona-overlay .gform_confirmation_message_1 {
+        color: white; }
 
 /**
  * Gravity Forms

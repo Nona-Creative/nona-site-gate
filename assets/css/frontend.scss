@@ -45,6 +45,9 @@ body {
 				display: flex;
 				flex-flow: column;
 				height: 100%;
+				.gform_confirmation_message_1 {
+					color: white;
+				}
 			}
 		}
 	}
